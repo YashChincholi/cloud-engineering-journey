@@ -1,30 +1,46 @@
-Cloud Engineering Journey ☁️
+# ☁️ Cloud Engineering Journey
 
-This repository documents my journey toward becoming a Cloud / Infrastructure Engineer.
+Welcome to my **Cloud Engineering Journey** 
 
-I am starting from the fundamentals and will use this repository to document my learning, hands-on labs, projects, scripts, and troubleshooting practice.
+This repository documents my path toward becoming a **Cloud / Infrastructure Engineer**.
 
-What this repository will contain
-🐧 Linux & system administration
-🌐 Networking fundamentals
-🔀 Git & GitHub
-🐚 Bash scripting
-🐍 Python for automation
-☁️ AWS
-🏗️ Terraform / Infrastructure as Code
-🐳 Docker
-🔄 CI/CD with GitHub Actions
-📊 Monitoring & security fundamentals
-☸️ Kubernetes — later stage
-🛠️ Projects & troubleshooting notes
-Goal
+I’m starting with the fundamentals and building practical skills through:
 
-Build practical skills through:
+- Hands-on labs
+- Real-world projects
+- Automation
+- Troubleshooting
+- Infrastructure management
+- Documentation
 
-Learn → Practice → Build → Troubleshoot → Document
+> **The goal is not just to learn concepts, but to build, break, troubleshoot, and understand how things work in real-world environments.**
 
-This repository will be updated as I progress through the roadmap.
+---
 
-Current Focus
+## 🗺️ Roadmap
 
-Linux → Networking → Git → Bash/Python → AWS
+My learning roadmap covers:
+
+- 🐧 Linux & System Administration
+- 🌐 Networking Fundamentals
+- 🔀 Git & GitHub
+- 🐚 Bash Scripting
+- 🐍 Python for Automation
+- ☁️ AWS / Cloud Computing
+- 🏗️ Terraform & Infrastructure as Code
+- 🐳 Docker & Containerization
+- 🔄 CI/CD with GitHub Actions
+- 📊 Monitoring & Observability
+- 🔐 Security Fundamentals
+- ☸️ Kubernetes — Later Stage
+- 🛠️ Projects & Troubleshooting
+- 📝 Learning Notes & Documentation
+
+---
+
+## 🎯 Goal
+
+Build strong, practical **Cloud / Infrastructure Engineering** skills through:
+
+```text
+Learn → Practice → Build → Troubleshoot → Document → Repeat
