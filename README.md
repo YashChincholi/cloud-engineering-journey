@@ -1,38 +1,30 @@
-```markdown
-# ☁️ Cloud & DevOps Engineering Journey
+Cloud Engineering Journey ☁️
 
-Hands-on repository documenting my labs, architecture diagrams, configuration files, and Infrastructure as Code as I build and deploy cloud systems.
+This repository documents my journey toward becoming a Cloud / Infrastructure Engineer.
 
-## 👨‍💻 Author
-* **Yash Chincholi** — [LinkedIn](https://linkedin.com/in/yashchincholidev) | [GitHub](https://github.com/YashChincholi)
+I am starting from the fundamentals and will use this repository to document my learning, hands-on labs, projects, scripts, and troubleshooting practice.
 
----
+What this repository will contain
+🐧 Linux & system administration
+🌐 Networking fundamentals
+🔀 Git & GitHub
+🐚 Bash scripting
+🐍 Python for automation
+☁️ AWS
+🏗️ Terraform / Infrastructure as Code
+🐳 Docker
+🔄 CI/CD with GitHub Actions
+📊 Monitoring & security fundamentals
+☸️ Kubernetes — later stage
+🛠️ Projects & troubleshooting notes
+Goal
 
-## 📂 Repository Structure
+Build practical skills through:
 
-```text
-cloud-engineering-journey/
-├── networking/     # Subnetting, Packet Tracer, Routing, Firewalls, VPC Prep
-├── linux/          # Shell Scripting, User Management, Systems Administration
-├── aws/            # IAM, VPCs, EC2, S3, Architecture Builds
-├── terraform/      # IaC Modules & State Management
-├── containers/     # Dockerfiles, Compose & Kubernetes Manifests
-└── cicd/           # GitHub Actions Workflows & Automation
+Learn → Practice → Build → Troubleshoot → Document
 
-```
+This repository will be updated as I progress through the roadmap.
 
----
+Current Focus
 
-## 📑 Lab Documentation
-
-Each topic folder contains its respective lab files, configurations, diagrams, and dedicated `README.md` write-ups detailing the architecture and key takeaways.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
-
-```
-
-```
+Linux → Networking → Git → Bash/Python → AWS
