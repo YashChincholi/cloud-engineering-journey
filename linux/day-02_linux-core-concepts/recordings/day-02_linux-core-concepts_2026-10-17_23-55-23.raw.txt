@@ -1,0 +1,1204 @@
+Script started on 2026-10-17 23:55:33+05:30 [COMMAND="exec bash --rcfile "$HOME/.bashrc" -i" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="230" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ uname
+[?2004l]133;C\]666;vte.shell.preexec!\Linux
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ uname -r
+[?2004l]133;C\]666;vte.shell.preexec!\7.0.0-31-generic
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ f[Kdmsg | grep -i [C[1P [1P [K[1P [1P [1P [1P [K[1P [K[1P [1P [1P m e s h [1P g [C | [C g r e p [C - i [C u s b 
+[?2004l]133;C\]666;vte.shell.preexec!\dmesg: read kernel buffer failed: Operation not permitted
+]666;vte.shell.postexec=1\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ sudo dmesg [K [K | grt[Kep -i usb
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: **********          
+[    0.368911] ACPI: bus type [01;31m[KUSB[m[K registered
+[    0.368911] [01;31m[Kusb[m[Kcore: registered new interface driver [01;31m[Kusb[m[Kfs
+[    0.368911] [01;31m[Kusb[m[Kcore: registered new interface driver hub
+[    0.368911] [01;31m[Kusb[m[Kcore: registered new device driver [01;31m[Kusb[m[K
+[    0.608071] xhci_hcd 0000:03:00.3: new [01;31m[KUSB[m[K bus registered, assigned bus number 1
+[    0.608589] xhci_hcd 0000:03:00.3: new [01;31m[KUSB[m[K bus registered, assigned bus number 2
+[    0.608593] xhci_hcd 0000:03:00.3: Host supports [01;31m[KUSB[m[K 3.1 Enhanced SuperSpeed
+[    0.608670] [01;31m[Kusb[m[K [01;31m[Kusb[m[K1: New [01;31m[KUSB[m[K device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+[    0.608674] [01;31m[Kusb[m[K [01;31m[Kusb[m[K1: New [01;31m[KUSB[m[K device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.608677] [01;31m[Kusb[m[K [01;31m[Kusb[m[K1: Product: xHCI Host Controller
+[    0.608679] [01;31m[Kusb[m[K [01;31m[Kusb[m[K1: Manufacturer: Linux 7.0.0-31-generic xhci-hcd
+[    0.608682] [01;31m[Kusb[m[K [01;31m[Kusb[m[K1: SerialNumber: 0000:03:00.3
+[    0.608854] hub 1-0:1.0: [01;31m[KUSB[m[K hub found
+[    0.610196] [01;31m[Kusb[m[K [01;31m[Kusb[m[K2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.610234] [01;31m[Kusb[m[K [01;31m[Kusb[m[K2: New [01;31m[KUSB[m[K device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00
+[    0.610237] [01;31m[Kusb[m[K [01;31m[Kusb[m[K2: New [01;31m[KUSB[m[K device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.610240] [01;31m[Kusb[m[K [01;31m[Kusb[m[K2: Product: xHCI Host Controller
+[    0.610242] [01;31m[Kusb[m[K [01;31m[Kusb[m[K2: Manufacturer: Linux 7.0.0-31-generic xhci-hcd
+[    0.610244] [01;31m[Kusb[m[K [01;31m[Kusb[m[K2: SerialNumber: 0000:03:00.3
+[    0.610406] hub 2-0:1.0: [01;31m[KUSB[m[K hub found
+[    0.611250] xhci_hcd 0000:03:00.4: new [01;31m[KUSB[m[K bus registered, assigned bus number 3
+[    0.611721] xhci_hcd 0000:03:00.4: new [01;31m[KUSB[m[K bus registered, assigned bus number 4
+[    0.611725] xhci_hcd 0000:03:00.4: Host supports [01;31m[KUSB[m[K 3.1 Enhanced SuperSpeed
+[    0.611779] [01;31m[Kusb[m[K [01;31m[Kusb[m[K3: New [01;31m[KUSB[m[K device found, idVendor=1d6b, idProduct=0002, bcdDevice= 7.00
+[    0.611783] [01;31m[Kusb[m[K [01;31m[Kusb[m[K3: New [01;31m[KUSB[m[K device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.611785] [01;31m[Kusb[m[K [01;31m[Kusb[m[K3: Product: xHCI Host Controller
+[    0.611788] [01;31m[Kusb[m[K [01;31m[Kusb[m[K3: Manufacturer: Linux 7.0.0-31-generic xhci-hcd
+[    0.611790] [01;31m[Kusb[m[K [01;31m[Kusb[m[K3: SerialNumber: 0000:03:00.4
+[    0.611954] hub 3-0:1.0: [01;31m[KUSB[m[K hub found
+[    0.613144] [01;31m[Kusb[m[K [01;31m[Kusb[m[K4: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.613181] [01;31m[Kusb[m[K [01;31m[Kusb[m[K4: New [01;31m[KUSB[m[K device found, idVendor=1d6b, idProduct=0003, bcdDevice= 7.00
+[    0.613184] [01;31m[Kusb[m[K [01;31m[Kusb[m[K4: New [01;31m[KUSB[m[K device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.613186] [01;31m[Kusb[m[K [01;31m[Kusb[m[K4: Product: xHCI Host Controller
+[    0.613189] [01;31m[Kusb[m[K [01;31m[Kusb[m[K4: Manufacturer: Linux 7.0.0-31-generic xhci-hcd
+[    0.613191] [01;31m[Kusb[m[K [01;31m[Kusb[m[K4: SerialNumber: 0000:03:00.4
+[    0.613346] hub 4-0:1.0: [01;31m[KUSB[m[K hub found
+[    0.851977] [01;31m[Kusb[m[K 1-3: new high-speed [01;31m[KUSB[m[K device number 2 using xhci_hcd
+[    0.987934] [01;31m[Kusb[m[K 1-3: New [01;31m[KUSB[m[K device found, idVendor=0408, idProduct=5365, bcdDevice= 0.02
+[    0.987948] [01;31m[Kusb[m[K 1-3: New [01;31m[KUSB[m[K device strings: Mfr=1, Product=2, SerialNumber=0
+[    0.987962] [01;31m[Kusb[m[K 1-3: Product: HP TrueVision HD Camera
+[    0.987968] [01;31m[Kusb[m[K 1-3: Manufacturer: SunplusIT Inc
+[    1.124433] [01;31m[Kusb[m[K 1-4: new full-speed [01;31m[KUSB[m[K device number 3 using xhci_hcd
+[    1.268678] [01;31m[Kusb[m[K 1-4: New [01;31m[KUSB[m[K device found, idVendor=0bda, idProduct=b00c, bcdDevice= 0.00
+[    1.268686] [01;31m[Kusb[m[K 1-4: New [01;31m[KUSB[m[K device strings: Mfr=1, Product=2, SerialNumber=3
+[    1.268690] [01;31m[Kusb[m[K 1-4: Product: Bluetooth Radio
+[    1.268692] [01;31m[Kusb[m[K 1-4: Manufacturer: Realtek
+[    1.268695] [01;31m[Kusb[m[K 1-4: SerialNumber: 00e04c000001
+[    6.488060] [01;31m[Kusb[m[Kcore: registered new interface driver bt[01;31m[Kusb[m[K
+[    6.583639] [01;31m[Kusb[m[Kcore: registered new interface driver uvcvideo
+[ 6388.928086] [01;31m[Kusb[m[K 1-4: reset full-speed [01;31m[KUSB[m[K device number 3 using xhci_hcd
+[ 7706.334865] [01;31m[Kusb[m[K 3-2: new full-speed [01;31m[KUSB[m[K device number 2 using xhci_hcd
+[ 7706.483685] [01;31m[Kusb[m[K 3-2: New [01;31m[KUSB[m[K device found, idVendor=413c, idProduct=301b, bcdDevice=11.23
+[ 7706.483705] [01;31m[Kusb[m[K 3-2: New [01;31m[KUSB[m[K device strings: Mfr=1, Product=2, SerialNumber=0
+[ 7706.483714] [01;31m[Kusb[m[K 3-2: Product: Dell Universal Receiver
+[ 7706.483722] [01;31m[Kusb[m[K 3-2: Manufacturer: Dell
+[ 7706.573784] input: Dell Dell Universal Receiver as /devices/pci0000:00/0000:00:08.1/0000:03:00.4/[01;31m[Kusb[m[K3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15
+[ 7706.652860] hid-generic 0003:413C:301B.0002: input,hidraw1: [01;31m[KUSB[m[K HID v1.11 Keyboard [Dell Dell Universal Receiver] on [01;31m[Kusb[m[K-0000:03:00.4-2/input0
+[ 7706.659145] input: Dell Dell Universal Receiver Mouse as /devices/pci0000:00/0000:00:08.1/0000:03:00.4/[01;31m[Kusb[m[K3/3-2/3-2:1.1/0003:413C:301B.0003/input/input16
+[ 7706.659832] input: Dell Dell Universal Receiver Consumer Control as /devices/pci0000:00/0000:00:08.1/0000:03:00.4/[01;31m[Kusb[m[K3/3-2/3-2:1.1/0003:413C:301B.0003/input/input17
+[ 7706.711078] input: Dell Dell Universal Receiver System Control as /devices/pci0000:00/0000:00:08.1/0000:03:00.4/[01;31m[Kusb[m[K3/3-2/3-2:1.1/0003:413C:301B.0003/input/input18
+[ 7706.711556] hid-generic 0003:413C:301B.0003: input,hidraw2: [01;31m[KUSB[m[K HID v1.11 Mouse [Dell Dell Universal Receiver] on [01;31m[Kusb[m[K-0000:03:00.4-2/input1
+[ 7706.717073] hid-generic 0003:413C:301B.0004: hiddev0,hidraw3: [01;31m[KUSB[m[K HID v1.11 Device [Dell Dell Universal Receiver] on [01;31m[Kusb[m[K-0000:03:00.4-2/input2
+[ 7706.717210] [01;31m[Kusb[m[Kcore: registered new interface driver [01;31m[Kusb[m[Khid
+[ 7706.717217] [01;31m[Kusb[m[Khid: [01;31m[KUSB[m[K HID core driver
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ udevadm info --query-path=[K[K[K[K[K[K=path --name [K=/dev/sda5[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kudevad[Kmd monitor[K[K[K[K[K[K[K[K[K[Kdm monitor
+[?2004l]133;C\]666;vte.shell.preexec!\monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+
+
+
+   
+
+
+KERNEL[4335.212755] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/event11 (input)
+KERNEL[4335.230399] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::numlock (leds)
+KERNEL[4335.230562] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::numlock (leds)
+UDEV  [4335.234637] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/event11 (input)
+KERNEL[4335.238412] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::capslock (leds)
+KERNEL[4335.238582] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::capslock (leds)
+UDEV  [4335.241415] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::numlock (leds)
+UDEV  [4335.246192] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::numlock (leds)
+UDEV  [4335.246417] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::capslock (leds)
+KERNEL[4335.246550] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::scrolllock (leds)
+KERNEL[4335.246671] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::scrolllock (leds)
+KERNEL[4335.246794] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::compose (leds)
+UDEV  [4335.250756] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::capslock (leds)
+UDEV  [4335.253511] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::compose (leds)
+UDEV  [4335.254030] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::scrolllock (leds)
+UDEV  [4335.257800] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::scrolllock (leds)
+KERNEL[4335.258274] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::kana (leds)
+KERNEL[4335.258393] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::kana (leds)
+UDEV  [4335.265563] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::kana (leds)
+UDEV  [4335.269736] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15/input15::kana (leds)
+KERNEL[4335.270512] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15 (input)
+KERNEL[4335.270746] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/hidraw/hidraw1 (hidraw)
+KERNEL[4335.270869] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002 (hid)
+KERNEL[4335.270977] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002 (hid)
+KERNEL[4335.271673] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4335.271896] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4335.272227] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input16/mouse2 (input)
+UDEV  [4335.275184] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/input/input15 (input)
+UDEV  [4335.276290] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002/hidraw/hidraw1 (hidraw)
+UDEV  [4335.277234] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input16/mouse2 (input)
+KERNEL[4335.278172] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input16/event12 (input)
+UDEV  [4335.280813] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002 (hid)
+UDEV  [4335.283440] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input16/event12 (input)
+UDEV  [4335.284130] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0002 (hid)
+KERNEL[4335.286624] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input16 (input)
+UDEV  [4335.288761] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+UDEV  [4335.290505] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input16 (input)
+UDEV  [4335.292394] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4335.294697] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input17/event13 (input)
+UDEV  [4335.300591] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input17/event13 (input)
+KERNEL[4335.302709] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input17 (input)
+UDEV  [4335.306499] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input17 (input)
+KERNEL[4335.310545] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input18/event14 (input)
+UDEV  [4335.317482] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input18/event14 (input)
+KERNEL[4335.321732] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input18 (input)
+KERNEL[4335.321975] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/hidraw/hidraw2 (hidraw)
+KERNEL[4335.322160] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003 (hid)
+KERNEL[4335.322502] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003 (hid)
+KERNEL[4335.322998] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4335.323127] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4335.323228] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+KERNEL[4335.323326] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0004/hidraw/hidraw3 (hidraw)
+KERNEL[4335.323425] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0004 (hid)
+KERNEL[4335.323526] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0004 (hid)
+KERNEL[4335.323623] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4335.323734] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4335.327322] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4335.328334] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/input/input18 (input)
+UDEV  [4335.330152] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+KERNEL[4335.330498] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+KERNEL[4335.330677] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4335.334457] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0004/hidraw/hidraw3 (hidraw)
+UDEV  [4335.334832] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003/hidraw/hidraw2 (hidraw)
+UDEV  [4335.337888] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003 (hid)
+UDEV  [4335.338026] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0004 (hid)
+UDEV  [4335.340717] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0003 (hid)
+UDEV  [4335.340899] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0004 (hid)
+UDEV  [4335.344266] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4335.344410] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4335.347152] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4335.347902] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4335.352554] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4335.355893] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+UDEV  [4335.359279] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+
+KERNEL[4357.153234] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+KERNEL[4357.184562] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+KERNEL[4357.184790] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4357.190309] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+KERNEL[4357.190863] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+KERNEL[4357.191165] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19 (input)
+KERNEL[4357.242248] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/event11 (input)
+KERNEL[4357.242568] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+KERNEL[4357.251704] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+KERNEL[4357.252081] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+KERNEL[4357.259634] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+KERNEL[4357.259963] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+KERNEL[4357.271677] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+KERNEL[4357.271930] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::compose (leds)
+KERNEL[4357.272187] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+KERNEL[4357.280460] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+KERNEL[4357.280715] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/hidraw/hidraw1 (hidraw)
+KERNEL[4357.280896] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+KERNEL[4357.281082] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4357.281470] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4357.286909] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+KERNEL[4357.287550] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20 (input)
+KERNEL[4357.287798] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/mouse2 (input)
+KERNEL[4357.288068] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/event12 (input)
+KERNEL[4357.288419] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21 (input)
+KERNEL[4357.338721] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21/event13 (input)
+KERNEL[4357.338983] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22 (input)
+KERNEL[4357.339249] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22/event14 (input)
+KERNEL[4357.339433] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/hidraw/hidraw2 (hidraw)
+KERNEL[4357.339603] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+KERNEL[4357.339763] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4357.339955] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4357.344549] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+KERNEL[4357.344872] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+KERNEL[4357.345097] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007/hidraw/hidraw3 (hidraw)
+KERNEL[4357.345292] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+KERNEL[4357.345479] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4357.345675] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4357.359076] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4357.369620] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4357.378296] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+UDEV  [4357.378998] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+UDEV  [4357.381692] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4357.384457] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4357.387187] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+UDEV  [4357.388623] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+UDEV  [4357.390661] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+UDEV  [4357.396952] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+UDEV  [4357.400267] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19 (input)
+UDEV  [4357.410105] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20 (input)
+UDEV  [4357.411187] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21 (input)
+UDEV  [4357.412947] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22 (input)
+UDEV  [4357.422828] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+UDEV  [4357.423581] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/hidraw/hidraw1 (hidraw)
+UDEV  [4357.423804] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+UDEV  [4357.428947] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+UDEV  [4357.430234] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007/hidraw/hidraw3 (hidraw)
+UDEV  [4357.431647] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+UDEV  [4357.439844] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+UDEV  [4357.440477] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::compose (leds)
+UDEV  [4357.440928] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/hidraw/hidraw2 (hidraw)
+UDEV  [4357.441411] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+UDEV  [4357.441623] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+UDEV  [4357.444506] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+UDEV  [4357.447197] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+UDEV  [4357.448853] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/mouse2 (input)
+UDEV  [4357.450941] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4357.464546] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/event11 (input)
+UDEV  [4357.466376] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/event12 (input)
+UDEV  [4357.473663] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+UDEV  [4357.480117] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+UDEV  [4357.481024] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22/event14 (input)
+UDEV  [4357.482658] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21/event13 (input)
+UDEV  [4357.488381] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+UDEV  [4357.493285] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4357.506662] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+^C]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ udevadm monitor --ler[K[K[Kkernal  -[K[K--d[Kudev
+[?2004l]133;C\]666;vte.shell.preexec!\monitor: unrecognized option '--kernal'
+]666;vte.shell.postexec=1\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ a[Kudevadm monitor --kernal --udev[K[K[K[K[K[K[K[K[K[Knel --d[Kudev
+[?2004l]133;C\]666;vte.shell.preexec!\monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+KERNEL[4463.908149] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/event11 (input)
+KERNEL[4463.924412] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+KERNEL[4463.924675] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+UDEV  [4463.928372] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/event11 (input)
+UDEV  [4463.934124] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+UDEV  [4463.938400] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::numlock (leds)
+KERNEL[4463.939298] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+KERNEL[4463.939418] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+UDEV  [4463.946860] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+KERNEL[4463.948322] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+KERNEL[4463.948468] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+KERNEL[4463.948640] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::compose (leds)
+UDEV  [4463.950631] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::capslock (leds)
+UDEV  [4463.955380] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::compose (leds)
+UDEV  [4463.956434] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+KERNEL[4463.960329] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+KERNEL[4463.960532] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+UDEV  [4463.961422] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::scrolllock (leds)
+KERNEL[4463.967678] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19 (input)
+KERNEL[4463.967981] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/hidraw/hidraw1 (hidraw)
+UDEV  [4463.968208] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+KERNEL[4463.968359] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+KERNEL[4463.968504] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+KERNEL[4463.968669] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4463.968822] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+UDEV  [4463.972165] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19/input19::kana (leds)
+KERNEL[4463.972852] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/mouse2 (input)
+UDEV  [4463.973667] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/hidraw/hidraw1 (hidraw)
+UDEV  [4463.976765] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005/input/input19 (input)
+UDEV  [4463.977456] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/mouse2 (input)
+KERNEL[4463.978562] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/event12 (input)
+UDEV  [4463.980926] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+UDEV  [4463.983535] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20/event12 (input)
+UDEV  [4463.983991] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0005 (hid)
+KERNEL[4463.987553] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20 (input)
+UDEV  [4463.987812] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+UDEV  [4463.991350] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input20 (input)
+UDEV  [4463.992838] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4464.001653] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21/event13 (input)
+UDEV  [4464.007843] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21/event13 (input)
+KERNEL[4464.009669] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21 (input)
+UDEV  [4464.013459] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input21 (input)
+KERNEL[4464.017517] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22/event14 (input)
+UDEV  [4464.023425] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22/event14 (input)
+KERNEL[4464.026569] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22 (input)
+KERNEL[4464.026777] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/hidraw/hidraw2 (hidraw)
+KERNEL[4464.026898] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+KERNEL[4464.027121] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+KERNEL[4464.027274] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4464.027395] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4464.027632] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+KERNEL[4464.027756] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007/hidraw/hidraw3 (hidraw)
+KERNEL[4464.027873] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+KERNEL[4464.027985] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+KERNEL[4464.028120] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4464.028246] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4464.032484] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4464.032967] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/input/input22 (input)
+KERNEL[4464.033576] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+KERNEL[4464.033708] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4464.034490] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+UDEV  [4464.035539] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006/hidraw/hidraw2 (hidraw)
+UDEV  [4464.036607] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007/hidraw/hidraw3 (hidraw)
+UDEV  [4464.039411] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+UDEV  [4464.039564] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+UDEV  [4464.042169] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.0007 (hid)
+UDEV  [4464.042738] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0006 (hid)
+UDEV  [4464.046288] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4464.046760] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4464.050246] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4464.051069] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4464.056729] unbind   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4464.060222] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+UDEV  [4464.063361] remove   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+KERNEL[4467.802063] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+KERNEL[4467.832885] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+KERNEL[4467.833453] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4467.838656] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008 (hid)
+KERNEL[4467.838851] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+KERNEL[4467.839135] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23 (input)
+KERNEL[4467.889967] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/event11 (input)
+KERNEL[4467.890202] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::numlock (leds)
+KERNEL[4467.896583] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::numlock (leds)
+KERNEL[4467.896771] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::capslock (leds)
+KERNEL[4467.904503] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::capslock (leds)
+KERNEL[4467.904753] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::scrolllock (leds)
+KERNEL[4467.912586] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::scrolllock (leds)
+KERNEL[4467.912784] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::compose (leds)
+KERNEL[4467.912930] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::kana (leds)
+KERNEL[4467.924506] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::kana (leds)
+KERNEL[4467.924819] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/hidraw/hidraw1 (hidraw)
+KERNEL[4467.925105] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008 (hid)
+KERNEL[4467.925391] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+KERNEL[4467.925626] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4467.929501] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009 (hid)
+KERNEL[4467.930223] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input24 (input)
+KERNEL[4467.930520] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input24/mouse2 (input)
+KERNEL[4467.930782] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input24/event12 (input)
+KERNEL[4467.931235] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input25 (input)
+KERNEL[4467.981827] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input25/event13 (input)
+KERNEL[4467.982214] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input26 (input)
+KERNEL[4467.982491] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input26/event14 (input)
+KERNEL[4467.982740] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/hidraw/hidraw2 (hidraw)
+KERNEL[4467.982974] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009 (hid)
+KERNEL[4467.983152] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+KERNEL[4467.983318] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4467.987806] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.000A (hid)
+KERNEL[4467.988110] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+KERNEL[4467.988340] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.000A/hidraw/hidraw3 (hidraw)
+KERNEL[4467.988532] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.000A (hid)
+KERNEL[4467.988720] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+KERNEL[4467.988909] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4468.001604] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4468.011078] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+UDEV  [4468.017247] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+UDEV  [4468.018768] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/wakeup/wakeup43 (wakeup)
+UDEV  [4468.021883] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4468.023379] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4468.028309] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008 (hid)
+UDEV  [4468.029399] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009 (hid)
+UDEV  [4468.030412] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.000A (hid)
+UDEV  [4468.030926] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/usbmisc/hiddev0 (usbmisc)
+UDEV  [4468.041339] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23 (input)
+UDEV  [4468.047786] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input26 (input)
+UDEV  [4468.048344] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input24 (input)
+UDEV  [4468.048785] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input25 (input)
+UDEV  [4468.056116] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::numlock (leds)
+UDEV  [4468.057997] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/hidraw/hidraw2 (hidraw)
+UDEV  [4468.060614] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::scrolllock (leds)
+UDEV  [4468.061769] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::compose (leds)
+UDEV  [4468.062288] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.000A/hidraw/hidraw3 (hidraw)
+UDEV  [4468.067953] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::capslock (leds)
+UDEV  [4468.074727] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2/0003:413C:301B.000A (hid)
+UDEV  [4468.077608] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::scrolllock (leds)
+UDEV  [4468.081171] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/hidraw/hidraw1 (hidraw)
+UDEV  [4468.081419] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.2 (usb)
+UDEV  [4468.081854] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::numlock (leds)
+UDEV  [4468.082379] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input24/mouse2 (input)
+UDEV  [4468.085257] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::capslock (leds)
+UDEV  [4468.086117] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::kana (leds)
+UDEV  [4468.095646] change   /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/input23::kana (leds)
+UDEV  [4468.102980] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008/input/input23/event11 (input)
+UDEV  [4468.103373] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input25/event13 (input)
+UDEV  [4468.107372] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input24/event12 (input)
+UDEV  [4468.110409] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0/0003:413C:301B.0008 (hid)
+UDEV  [4468.112572] add      /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009/input/input26/event14 (input)
+UDEV  [4468.116126] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.0 (usb)
+UDEV  [4468.119414] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1/0003:413C:301B.0009 (hid)
+UDEV  [4468.126155] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2/3-2:1.1 (usb)
+UDEV  [4468.140219] bind     /devices/pci0000:00/0000:00:08.1/0000:03:00.4/usb3/3-2 (usb)
+^C]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ lspci
+[?2004l]133;C\]666;vte.shell.preexec!\00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex
+00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne IOMMU
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge
+00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge
+00:02.4 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir Internal PCIe GPP Bridge to Bus
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 51)
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 0
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 1
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 2
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 3
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 4
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 5
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 6
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir Device 24: Function 7
+01:00.0 Network controller: Realtek Semiconductor Co., Ltd. RTL8822CE 802.11ac PCIe Wireless Network Adapter
+02:00.0 Non-Volatile memory controller: SK hynix Gold P31/BC711/PC711 NVMe Solid State Drive
+03:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Lucienne (rev c3)
+03:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Renoir/Cezanne HDMI/DP Audio Controller
+03:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Raven/Raven2/FireFlight/Renoir/Cezanne Platform Security Processor
+03:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1
+03:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1
+03:00.5 Multimedia controller: Advanced Micro Devices, Inc. [AMD] Audio Coprocessor (rev 01)
+03:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Ryzen HD Audio Controller
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ lsblk
+[?2004l]133;C\]666;vte.shell.preexec!\NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0         7:0    0  66.8M  1 loop /snap/core24/2124
+loop1         7:1    0  66.8M  1 loop /snap/core24/1643
+loop2         7:2    0     4K  1 loop /snap/bare/5
+loop3         7:3    0  14.2M  1 loop /snap/desktop-security-center/188
+loop4         7:4    0  14.2M  1 loop /snap/desktop-security-center/206
+loop5         7:5    0 260.3M  1 loop /snap/firefox/8763
+loop6         7:6    0 261.4M  1 loop /snap/firefox/8969
+loop7         7:7    0  16.5M  1 loop /snap/firmware-updater/226
+loop8         7:8    0  12.7M  1 loop /snap/firmware-updater/258
+loop9         7:9    0 614.5M  1 loop /snap/gnome-46-2404/164
+loop10        7:10   0 615.3M  1 loop /snap/gnome-46-2404/168
+loop11        7:11   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop12        7:12   0   1.5M  1 loop /snap/hwctl/123
+loop13        7:13   0   1.5M  1 loop /snap/hwctl/131
+loop14        7:14   0   402M  1 loop /snap/mesa-2404/1839
+loop15        7:15   0  18.8M  1 loop /snap/prompting-client/222
+loop16        7:16   0  18.4M  1 loop /snap/prompting-client/228
+loop17        7:17   0  50.3M  1 loop /snap/snapd/27738
+loop18        7:18   0  50.1M  1 loop /snap/snapd/27710
+loop19        7:19   0 221.1M  1 loop /snap/thunderbird/1228
+loop20        7:20   0   828K  1 loop /snap/snapd-desktop-integration/391
+loop21        7:21   0  11.8M  1 loop /snap/snap-store/1390
+loop22        7:22   0 222.1M  1 loop /snap/thunderbird/1274
+nvme0n1     259:0    0 476.9G  0 disk 
+├─nvme0n1p1 259:1    0   260M  0 part /boot/efi
+├─nvme0n1p2 259:2    0    16M  0 part 
+├─nvme0n1p3 259:3    0 368.2G  0 part 
+├─nvme0n1p4 259:4    0     6G  0 part 
+├─nvme0n1p5 259:5    0   600M  0 part 
+└─nvme0n1p6 259:6    0 100.9G  0 part /
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [K]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ lsc[[Kpu
+[?2004l]133;C\]666;vte.shell.preexec!\Architecture:                x86_64
+  CPU op-mode(s):            32-bit, 64-bit
+  Address sizes:             48 bits physical, 48 bits virtual
+  Byte Order:                Little Endian
+CPU(s):                      8
+  On-line CPU(s) list:       0-7
+Vendor ID:                   AuthenticAMD
+  Model name:                AMD Ryzen 3 5300U with Radeon Graphics
+    CPU family:              23
+    Model:                   104
+    Thread(s) per core:      2
+    Core(s) per socket:      4
+    Socket(s):               1
+    Stepping:                1
+    Frequency boost:         enabled
+    CPU(s) scaling MHz:      43%
+    CPU max MHz:             3900.0000
+    CPU min MHz:             412.9420
+    BogoMIPS:                5190.23
+    Flags:                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid 
+                             extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw 
+                             ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushop
+                             t clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid de
+                             codeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca
+Virtualization features:     
+  Virtualization:            AMD-V
+Caches (sum of all):         
+  L1d:                       128 KiB (4 instances)
+  L1i:                       128 KiB (4 instances)
+  L2:                        2 MiB (4 instances)
+  L3:                        4 MiB (1 instance)
+NUMA:                        
+  NUMA node(s):              1
+  NUMA node0 CPU(s):         0-7
+Vulnerabilities:             
+  Gather data sampling:      Not affected
+  Ghostwrite:                Not affected
+  Indirect target selection: Not affected
+  Itlb multihit:             Not affected
+  L1tf:                      Not affected
+  Mds:                       Not affected
+  Meltdown:                  Not affected
+  Mmio stale data:           Not affected
+  Old microcode:             Not affected
+  Reg file data sampling:    Not affected
+  Retbleed:                  Mitigation; untrained return thunk; SMT enabled with STIBP protection
+  Spec rstack overflow:      Mitigation; Safe RET
+  Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+  Srbds:                     Not affected
+  Tsa:                       Not affected
+  Tsx async abort:           Not affected
+  Vmscape:                   Mitigation; IBPB before exit to userspace
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ lsmemory[K[K[K --sumar[K[Ka[Kmary
+[?2004l]133;C\]666;vte.shell.preexec!\Command 'lsmem' not found, but can be installed with:
+sudo apt install util-linux-extra
+]666;vte.shell.postexec=127\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ sudo lsmem --summary
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: **********          
+sudo: 'lsmem': command not found
+]666;vte.shell.postexec=1\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ type lsmemory[K[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\bash: type: lsmem: not found
+]666;vte.shell.postexec=1\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$   [K[Ksudo apt update
+[?2004l]133;C\]666;vte.shell.preexec!\[33m0% [Working][0m[33m0% [Waiting for headers] [Waiting for headers] [Connecting to packages.microsoft.com (13.107.246.68)][0m                                                                                                     Hit:1 http://in.archive.ubuntu.com/ubuntu resolute InRelease
+[33m                                                                                                     0% [Waiting for headers] [Connecting to packages.microsoft.com (13.107.246.68)][0m                                                                               Get:2 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+[33m                                                                               0% [Waiting for headers] [Connected to packages.microsoft.com (13.107.246.68)][0m[33m0% [Waiting for headers] [Connected to packages.microsoft.com (13.107.246.68)][0m[33m0% [Waiting for headers] [Connected to packages.microsoft.com (13.107.246.68)][0m                                                                              Get:3 http://in.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+[33m0% [3 InRelease 7,589 B/137 kB 6%] [Connecting to security.ubuntu.com (185.125.190.82)] [Waiting for headers][0m                                                                                                             Get:4 https://packages.microsoft.com/repos/code stable InRelease [3,590 B]
+[33m0% [3 InRelease 24.9 kB/137 kB 18%] [Connecting to security.ubuntu.com (185.125.190.82)] [4 InRelease 3,590 B/3,590 B 100%][0m[33m                                                                                                                           0% [3 InRelease 24.9 kB/137 kB 18%] [Connecting to security.ubuntu.com (185.125.190.82)][0m[33m                                                                                        0% [3 InRelease 117 kB/137 kB 85%] [Connecting to security.ubuntu.com (185.125.190.82)][0m[33m                                                                                       0% [Connecting to security.ubuntu.com (185.125.190.82)] [Waiting for headers][0m[33m0% [Connecting to in.archive.ubuntu.com (185.125.190.83)] [Connecting to security.ubuntu.com (185.125.190.82)] [Waiting for headers][0m                                                                                                                                    Get:5 https://packages.microsoft.com/repos/code stable/main amd64 Packages [31.0 kB]
+[33m                                                                                                                                    0% [Connecting to in.archive.ubuntu.com (185.125.190.83)] [Waiting for headers] [5 Packages 12.3 kB/31.0 kB 40%][0m[33m                                                                                                                0% [Connecting to in.archive.ubuntu.com (185.125.190.83)] [Waiting for headers][0m[33m0% [5 Packages store 0 B] [Connecting to in.archive.ubuntu.com (185.125.190.83)] [Waiting for headers][0m[33m                                                                                                      0% [Connecting to in.archive.ubuntu.com (185.125.190.83)] [Waiting for headers][0m                                                                               Get:6 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages [602 kB]
+[33m                                                                               0% [Waiting for headers] [6 Packages 9,757 B/602 kB 2%][0m                                                       Get:7 http://in.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+[33m0% [7 InRelease 8,260 B/137 kB 6%] [6 Packages 19.8 kB/602 kB 3%][0m[33m0% [7 InRelease 122 kB/137 kB 90%] [6 Packages 183 kB/602 kB 30%][0m[33m                                                                 0% [6 Packages 248 kB/602 kB 41%][0m[33m33% [Waiting for headers] [6 Packages 283 kB/602 kB 47%][0m                                                        Get:8 http://in.archive.ubuntu.com/ubuntu resolute-updates/main i386 Packages [331 kB]
+[33m34% [8 Packages 16.9 kB/331 kB 5%] [6 Packages 320 kB/602 kB 53%][0m[33m                                                                 42% [8 Packages 151 kB/331 kB 46%][0m[33m42% [6 Packages store 0 B] [8 Packages 151 kB/331 kB 46%][0m[33m                                                         42% [8 Packages 171 kB/331 kB 52%] [Waiting for headers][0m                                                        Get:9 http://security.ubuntu.com/ubuntu resolute-security/main i386 Packages [233 kB]
+[33m44% [8 Packages 245 kB/331 kB 74%] [9 Packages 15.5 kB/233 kB 7%][0m[33m                                                                 50% [Waiting for headers][0m[33m50% [8 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                      50% [Waiting for headers] [Waiting for headers][0m[33m50% [9 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                      50% [Waiting for headers] [Waiting for headers][0m                                               Get:10 http://in.archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages [738 kB]
+[33m50% [10 Packages 6,901 B/738 kB 1%] [Waiting for headers][0m                                                         Get:11 http://security.ubuntu.com/ubuntu resolute-security/main Translation-en [139 kB]
+[33m52% [10 Packages 56.3 kB/738 kB 8%] [11 Translation-en 16.3 kB/139 kB 12%][0m[33m                                                                          55% [10 Packages 110 kB/738 kB 15%][0m[33m55% [11 Translation-en store 0 B] [10 Packages 110 kB/738 kB 15%] [Waiting for headers][0m[33m                                                                                       56% [10 Packages 154 kB/738 kB 21%] [Waiting for headers][0m                                                         Get:12 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Components [46.7 kB]
+[33m61% [10 Packages 372 kB/738 kB 50%] [12 Components-amd64 19.8 kB/46.7 kB 42%][0m[33m                                                                             62% [10 Packages 384 kB/738 kB 52%][0m[33m62% [12 Components-amd64 store 0 B] [10 Packages 384 kB/738 kB 52%] [Waiting for headers][0m[33m                                                                                         62% [10 Packages 415 kB/738 kB 56%] [Waiting for headers][0m                                                         Get:13 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Packages [202 kB]
+[33m66% [10 Packages 581 kB/738 kB 79%] [13 Packages 21.2 kB/202 kB 11%][0m[33m                                                                    72% [13 Packages 161 kB/202 kB 80%][0m[33m72% [10 Packages store 0 B] [Waiting for headers] [13 Packages 161 kB/202 kB 80%][0m[33m                                                                                 73% [10 Packages store 0 B] [Waiting for headers][0m[33m                                                 73% [Waiting for headers] [Waiting for headers][0m[33m73% [13 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                       73% [Waiting for headers] [Waiting for headers][0m                                               Get:14 http://in.archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [174 kB]
+[33m73% [14 Translation-en 11.2 kB/174 kB 6%] [Waiting for headers][0m[33m                                                               76% [Waiting for headers][0m[33m76% [14 Translation-en store 0 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                             76% [Waiting for headers] [Waiting for headers][0m                                               Get:15 http://security.ubuntu.com/ubuntu resolute-security/universe i386 Packages [115 kB]
+[33m77% [Waiting for headers] [15 Packages 8,329 B/115 kB 7%][0m                                                         Get:16 http://in.archive.ubuntu.com/ubuntu resolute-updates/main amd64 Components [110 kB]
+[33m79% [16 Components-amd64 12.6 kB/110 kB 11%] [15 Packages 115 kB/115 kB 100%][0m[33m                                                                             80% [16 Components-amd64 46.9 kB/110 kB 43%][0m[33m80% [15 Packages store 0 B] [16 Components-amd64 46.9 kB/110 kB 43%] [Waiting for headers][0m[33m                                                                                          81% [16 Components-amd64 110 kB/110 kB 100%] [Waiting for headers][0m[33m                                                                  81% [Waiting for headers][0m[33m81% [16 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                               81% [Waiting for headers] [Waiting for headers][0m                                               Get:17 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe i386 Packages [172 kB]
+                                               Get:18 http://security.ubuntu.com/ubuntu resolute-security/universe Translation-en [65.9 kB]
+[33m81% [17 Packages 5,473 B/172 kB 3%] [18 Translation-en 11.2 kB/65.9 kB 17%][0m[33m                                                                           85% [17 Packages 130 kB/172 kB 75%][0m[33m85% [18 Translation-en store 0 B] [17 Packages 130 kB/172 kB 75%] [Waiting for headers][0m[33m                                                                                       86% [18 Translation-en store 363 kB] [Waiting for headers][0m[33m                                                          86% [Waiting for headers] [Waiting for headers][0m[33m86% [17 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                       86% [Waiting for headers] [Waiting for headers][0m                                               Get:19 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Packages [329 kB]
+[33m86% [19 Packages 12.6 kB/329 kB 4%] [Waiting for headers][0m                                                         Get:20 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Components [55.5 kB]
+[33m87% [19 Packages 46.9 kB/329 kB 14%] [20 Components-amd64 15.5 kB/55.5 kB 28%][0m[33m                                                                              89% [19 Packages 103 kB/329 kB 31%][0m[33m89% [20 Components-amd64 store 0 B] [19 Packages 103 kB/329 kB 31%][0m[33m                                                                   91% [19 Packages 181 kB/329 kB 55%][0m[33m                                   94% [Working][0m[33m94% [19 Packages store 0 B] [Waiting for headers][0m[33m                                                 94% [Waiting for headers][0m                         Get:21 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe Translation-en [108 kB]
+[33m94% [21 Translation-en 4,045 B/108 kB 4%][0m[33m                                         96% [Working][0m[33m96% [21 Translation-en store 0 B] [Waiting for headers][0m[33m                                                       96% [Waiting for headers][0m                         Get:22 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Components [201 kB]
+[33m96% [22 Components-amd64 5,473 B/201 kB 3%][0m[33m                                           100% [Working][0m[33m100% [22 Components-amd64 store 0 B] [Waiting for headers][0m[33m                                                          100% [Waiting for headers][0m                          Get:23 http://in.archive.ubuntu.com/ubuntu resolute-backports/universe amd64 Components [1,056 B]
+[33m100% [23 Components-amd64 1,056 B/1,056 B 100%][0m[33m                                               100% [Working][0m[33m100% [23 Components-amd64 store 0 B][0m[33m                                    100% [Working][0m              Fetched 4,068 kB in 4s (988 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 38%Reading package lists... 47%Reading package lists... 47%Reading package lists... 66%Reading package lists... 66%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m217 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0m]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ sudo apt install linux-apt-extra[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kutil-linux [K-extra
+[?2004l]133;C\]666;vte.shell.preexec!\Reading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                Solving dependencies... 0%Solving dependencies... 10%                            Installing:
+[32m  util-linux-extra
+[0m
+Installing dependencies:
+[32m  liblastlog2-2
+[0m
+Summary:
+  Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 217
+  Download size: 374 kB
+  Space needed: 1,407 kB / 84.2 GB available
+
+Continue? [Y/n] Y
+[33m0% [Working][0m[33m0% [Connecting to in.archive.ubuntu.com (91.189.92.22)][0m                                                       Get:1 http://in.archive.ubuntu.com/ubuntu resolute-updates/main amd64 liblastlog2-2 amd64 2.41.3-3ubuntu2.2 [27.4 kB]
+[33m                                                       2% [1 liblastlog2-2 7,901 B/27.4 kB 29%][0m[33m                                        16% [Working][0m             Get:2 http://in.archive.ubuntu.com/ubuntu resolute-updates/main amd64 util-linux-extra amd64 2.41.3-3ubuntu2.2 [347 kB]
+[33m19% [2 util-linux-extra 13.7 kB/347 kB 4%][0m[33m                                          100% [Working][0m              Fetched 374 kB in 2s (249 kB/s)
+
+7[0;54r8[1ASelecting previously unselected package liblastlog2-2:amd64.
+(Reading database… (Reading database… 5%(Reading database… 10%(Reading database… 15%(Reading database… 20%(Reading database… 25%(Reading database… 30%(Reading database… 35%(Reading database… 40%(Reading database… 45%(Reading database… 50%(Reading database… 55%(Reading database… 60%(Reading database… 65%(Reading database… 70%(Reading database… 75%(Reading database… 80%(Reading database… 85%(Reading database… 90%(Reading database… 95%(Reading database… 100%(Reading database… 179560 files and directories currently installed.)
+Preparing to unpack …/liblastlog2-2_2.41.3-3ubuntu2.2_amd64.deb…
+7[55;0f[42m[30mProgress: [  0%][49m[39m [                                                                                                                                                                                                                ] 87[55;0f[42m[30mProgress: [ 11%][49m[39m [███████████████████████                                                                                                                                                                                         ] 8Unpacking liblastlog2-2:amd64 (2.41.3-3ubuntu2.2)…
+7[55;0f[42m[30mProgress: [ 22%][49m[39m [██████████████████████████████████████████████▏                                                                                                                                                                 ] 8Selecting previously unselected package util-linux-extra.
+Preparing to unpack …/util-linux-extra_2.41.3-3ubuntu2.2_amd64.deb…
+7[55;0f[42m[30mProgress: [ 33%][49m[39m [█████████████████████████████████████████████████████████████████████▎                                                                                                                                          ] 8Unpacking util-linux-extra (2.41.3-3ubuntu2.2)…
+7[55;0f[42m[30mProgress: [ 44%][49m[39m [████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                                   ] 8Setting up liblastlog2-2:amd64 (2.41.3-3ubuntu2.2)…
+7[55;0f[42m[30mProgress: [ 56%][49m[39m [███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                            ] 87[55;0f[42m[30mProgress: [ 67%][49m[39m [██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                     ] 8Setting up util-linux-extra (2.41.3-3ubuntu2.2)…
+7[55;0f[42m[30mProgress: [ 78%][49m[39m [█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                              ] 87[55;0f[42m[30mProgress: [ 89%][49m[39m [████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                       ] 8Processing triggers for man-db (2.13.1-1build1)…
+Processing triggers for libc-bin (2.43-2ubuntu2.4)…
+
+7[0;55r8[1A[J]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ lsmem 00[K[K--summary
+[?2004l]133;C\]666;vte.shell.preexec!\Memory block size:                128M
+Total online memory:              7.5G
+Total offline memory:               0B
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ lsmem
+[?2004l]133;C\]666;vte.shell.preexec!\RANGE                                  SIZE  STATE REMOVABLE BLOCK
+0x0000000000000000-0x00000000bfffffff    3G online       yes  0-23
+0x0000000100000000-0x000000021fffffff  4.5G online       yes 32-67
+
+Memory block size:                128M
+Total online memory:              7.5G
+Total offline memory:               0B
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ ls[K[Kfree -h[Km
+[?2004l]133;C\]666;vte.shell.preexec!\               total        used        free      shared  buff/cache   available
+Mem:            6741        3249         882          74        2378        3491
+Swap:           4095           0        4095
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ lshw
+[?2004l]133;C\]666;vte.shell.preexec!\WARNING: you should run this program as super-user.
+DMI   SMP   PA-RISC       device-tree           SPD   memory      /proc/cpuinfo             CPUID     PCI (sysfs)           ISA PnP       PnP (sysfs)           PCMCIA      PCMCIA      Virtual I/O (VIRTIO) devices                            IBM Virtual I/O (VIO)                     kernel device tree (sysfs)                          USB   IDE   SCSI    NVMe    MMC   sound     graphics        input     S/390 devices             Network interfaces                  Framebuffer devices                   Display       CPUFreq       ABI   yash-hp-laptop-15s-eq2xxx
+    description: Computer
+    width: 64 bits
+    capabilities: smp vsyscall32
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-memory
+          description: System memory
+          physical id: 0
+          size: 7680MiB
+     *-cpu
+          product: AMD Ryzen 3 5300U with Radeon Graphics
+          vendor: Advanced Micro Devices [AMD]
+          physical id: 1
+          bus info: cpu@0
+          version: 23.104.1
+          size: 2014MHz
+          capacity: 3900MHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca cpufreq
+          configuration: microcode=140542217
+     *-pci:0
+          description: Host bridge
+          product: Renoir/Cezanne Root Complex
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-generic UNCLAIMED
+             description: IOMMU
+             product: Renoir/Cezanne IOMMU
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 0.2
+             bus info: pci@0000:00:00.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: cap_list
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Renoir/Cezanne PCIe GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 2.2
+             bus info: pci@0000:00:02.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:35 ioport:f000(size=4096) memory:fcf00000-fcffffff
+           *-network
+                description: Wireless interface
+                product: RTL8822CE 802.11ac PCIe Wireless Network Adapter
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                logical name: wlo1
+                version: 00
+                serial: 10:b1:df:b3:9f:71
+                width: 64 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list ethernet physical wireless
+                configuration: broadcast=yes driver=rtw88_8822ce driverversion=7.0.0-31-generic firmware=N/A ip=192.168.0.57 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+                resources: irq:73 ioport:f000(size=256) memory:fcf00000-fcf0ffff
+        *-pci:1
+             description: PCI bridge
+             product: Renoir/Cezanne PCIe GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 2.4
+             bus info: pci@0000:00:02.4
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:36 memory:fce00000-fcefffff
+           *-nvme
+                description: NVMe device
+                product: SK hynix BC711 HFM512GD3JX013N
+                vendor: SK hynix
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: /dev/nvme0
+                version: HPS1
+                serial: FDB7N710811807Q3Q
+                width: 64 bits
+                clock: 33MHz
+                capabilities: nvme nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0 nqn=nqn.2022-07.com.skhynix:nvme:nvm-subsystem-sn-FDB7N710811807Q3Q state=live
+                resources: irq:60 memory:fce00000-fce03fff memory:fce05000-fce05fff memory:fce04000-fce04fff
+              *-namespace:0
+                   description: NVMe disk
+                   physical id: 0
+                   logical name: hwmon3
+              *-namespace:1
+                   description: NVMe disk
+                   physical id: 2
+                   logical name: /dev/ng0n1
+              *-namespace:2
+                   description: NVMe disk
+                   physical id: 1
+                   bus info: nvme@0:1
+                   logical name: /dev/nvme0n1
+                   configuration: wwid=nvme.1c5c-464442374e373130383131383037513351-534b2068796e69782042433731312048464d3531324744334a583031334e-00000001
+        *-pci:2
+             description: PCI bridge
+             product: Video Bus
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 8.1
+             bus info: pci@0000:00:08.1
+             logical name: input6
+             logical name: /dev/input/event3
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list platform
+             configuration: driver=pcieport
+             resources: irq:37 ioport:e000(size=4096) memory:fca00000-fcdfffff ioport:d0000000(size=270532608)
+           *-display
+                description: VGA compatible controller
+                product: Lucienne
+                vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                logical name: /dev/fb0
+                version: c3
+                width: 64 bits
+                clock: 33MHz
+                capabilities: vga_controller bus_master cap_list fb
+                configuration: depth=32 driver=amdgpu latency=0 resolution=1920,1080
+                resources: irq:47 memory:d0000000-dfffffff memory:e0000000-e01fffff ioport:e000(size=256) memory:fcd00000-fcd7ffff
+           *-multimedia:0
+                description: Audio device
+                product: Renoir/Cezanne HDMI/DP Audio Controller
+                vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                physical id: 0.1
+                bus info: pci@0000:03:00.1
+                logical name: card0
+                logical name: /dev/snd/controlC0
+                logical name: /dev/snd/hwC0D0
+                logical name: /dev/snd/pcmC0D3p
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: hda_compatible bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:75 memory:fcdc8000-fcdcbfff
+              *-input
+                   product: HD-Audio Generic HDMI/DP,pcm=3
+                   physical id: 0
+                   logical name: input12
+                   logical name: /dev/input/event8
+           *-generic
+                description: Encryption controller
+                product: Raven/Raven2/FireFlight/Renoir/Cezanne Platform Security Processor
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.2
+                bus info: pci@0000:03:00.2
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list
+                configuration: driver=ccp latency=0
+                resources: irq:57 memory:fcc00000-fccfffff memory:fcdcc000-fcdcdfff
+           *-usb:0
+                description: USB controller
+                product: Renoir/Cezanne USB 3.1
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.3
+                bus info: pci@0000:03:00.3
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:38 memory:fcb00000-fcbfffff
+           *-usb:1
+                description: USB controller
+                product: Renoir/Cezanne USB 3.1
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.4
+                bus info: pci@0000:03:00.4
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:47 memory:fca00000-fcafffff
+           *-multimedia:1
+                description: Multimedia controller
+                product: Audio Coprocessor
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.5
+                bus info: pci@0000:03:00.5
+                logical name: card2
+                logical name: /dev/snd/controlC2
+                logical name: /dev/snd/pcmC2D0c
+                version: 01
+                width: 32 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list
+                configuration: driver=snd_rn_pci_acp3x latency=0
+                resources: irq:71 memory:fcd80000-fcdbffff
+           *-multimedia:2
+                description: Audio device
+                product: Ryzen HD Audio Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.6
+                bus info: pci@0000:03:00.6
+                logical name: card1
+                logical name: /dev/snd/controlC1
+                logical name: /dev/snd/hwC1D0
+                logical name: /dev/snd/pcmC1D0c
+                logical name: /dev/snd/pcmC1D0p
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: hda_compatible bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:74 memory:fcdc0000-fcdc7fff
+              *-input:0
+                   product: HD-Audio Generic Mic
+                   physical id: 0
+                   logical name: input13
+                   logical name: /dev/input/event9
+              *-input:1
+                   product: HD-Audio Generic Headphone
+                   physical id: 1
+                   logical name: input14
+                   logical name: /dev/input/event10
+        *-serial
+             description: SMBus
+             product: FCH SMBus Controller
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 51
+             width: 32 bits
+             clock: 66MHz
+             configuration: driver=piix4_smbus latency=0
+             resources: irq:0
+        *-isa
+             description: ISA bridge
+             product: FCH LPC Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 14.3
+             bus info: pci@0000:00:14.3
+             version: 51
+             width: 32 bits
+             clock: 66MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+           *-pnp00:00
+                product: PnP device PNP0b00
+                physical id: 0
+                capabilities: pnp
+                configuration: driver=rtc_cmos
+           *-pnp00:01
+                product: PnP device HPQ8001
+                vendor: Hewlett-Packard Co.
+                physical id: 1
+                capabilities: pnp
+                configuration: driver=i8042 kbd
+     *-pci:1
+          description: Host bridge
+          product: Renoir PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 101
+          bus info: pci@0000:00:01.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:2
+          description: Host bridge
+          product: Renoir PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 102
+          bus info: pci@0000:00:02.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:3
+          description: Host bridge
+          product: Renoir PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 103
+          bus info: pci@0000:00:08.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:4
+          description: Host bridge
+          product: Renoir Device 24: Function 0
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 104
+          bus info: pci@0000:00:18.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:5
+          description: Host bridge
+          product: Renoir Device 24: Function 1
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 105
+          bus info: pci@0000:00:18.1
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:6
+          description: Host bridge
+          product: Renoir Device 24: Function 2
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 106
+          bus info: pci@0000:00:18.2
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:7
+          description: Host bridge
+          product: Renoir Device 24: Function 3
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 107
+          bus info: pci@0000:00:18.3
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=k10temp
+          resources: irq:0
+     *-pci:8
+          description: Host bridge
+          product: Renoir Device 24: Function 4
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 108
+          bus info: pci@0000:00:18.4
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:9
+          description: Host bridge
+          product: Renoir Device 24: Function 5
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 109
+          bus info: pci@0000:00:18.5
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:10
+          description: Host bridge
+          product: Renoir Device 24: Function 6
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10a
+          bus info: pci@0000:00:18.6
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:11
+          description: Host bridge
+          product: Renoir Device 24: Function 7
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10b
+          bus info: pci@0000:00:18.7
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+  *-input:0
+       product: Power Button
+       physical id: 1
+       logical name: input0
+       logical name: /dev/input/event0
+       capabilities: platform
+  *-input:1
+       product: Lid Switch
+       physical id: 2
+       logical name: input1
+       logical name: /dev/input/event1
+       capabilities: platform
+  *-input:2
+       product: Wireless hotkeys
+       physical id: 3
+       logical name: input10
+       logical name: /dev/input/event6
+       capabilities: platform
+  *-input:3
+       product: HP WMI hotkeys
+       physical id: 4
+       logical name: input11
+       logical name: /dev/input/event7
+       capabilities: platform
+  *-input:4
+       product: AT Translated Set 2 keyboard
+       physical id: 5
+       logical name: input2
+       logical name: /dev/input/event2
+       logical name: input2::capslock
+       logical name: input2::numlock
+       logical name: input2::scrolllock
+       capabilities: i8042
+  *-input:5
+       product: Dell Dell Universal Receiver
+       physical id: 6
+       logical name: input23
+       logical name: /dev/input/event11
+       logical name: input23::capslock
+       logical name: input23::compose
+       logical name: input23::kana
+       logical name: input23::numlock
+       logical name: input23::scrolllock
+       capabilities: usb
+  *-input:6
+       product: Dell Dell Universal Receiver Mouse
+       physical id: 7
+       logical name: input24
+       logical name: /dev/input/event12
+       logical name: /dev/input/mouse2
+       capabilities: usb
+  *-input:7
+       product: Dell Dell Universal Receiver Consumer Control
+       physical id: 8
+       logical name: input25
+       logical name: /dev/input/event13
+       capabilities: usb
+  *-input:8
+       product: Dell Dell Universal Receiver System Control
+       physical id: 9
+       logical name: input26
+       logical name: /dev/input/event14
+       capabilities: usb
+  *-input:9
+       product: ELAN071A:00 04F3:30FD Mouse
+       physical id: a
+       logical name: input7
+       logical name: /dev/input/event4
+       logical name: /dev/input/mouse0
+       capabilities: i2c
+  *-input:10
+       product: ELAN071A:00 04F3:30FD Touchpad
+       physical id: b
+       logical name: input9
+       logical name: /dev/input/event5
+       logical name: /dev/input/mouse1
+       capabilities: i2c
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ sudo lshw --short[K[K[K[K[K[Kshort
+[?2004l]133;C\]666;vte.shell.preexec!\DMI   SMP   PA-RISC       device-tree           SPD   memory      /proc/cpuinfo             CPUID     PCI (sysfs)           ISA PnP       PnP (sysfs)           PCMCIA      PCMCIA      Virtual I/O (VIRTIO) devices                            IBM Virtual I/O (VIO)                     kernel device tree (sysfs)                          USB   IDE   SCSI    NVMe    MMC   sound     graphics        input     S/390 devices             Network interfaces                  Framebuffer devices                   Display       CPUFreq       ABI   H/W path            Device          Class          Description
+==============================================================
+                                    system         HP Laptop 15s-eq2xxx (7G6H1PA#ACJ)
+/0                                  bus            887A
+/0/0                                memory         64KiB BIOS
+/0/c                                memory         8GiB System Memory
+/0/c/0                              memory         SODIMM [empty]
+/0/c/1                              memory         8GiB SODIMM DDR4 Synchronous Unbuffered (Unregistered) 3200 MHz (0.3 ns)
+/0/e                                memory         256KiB L1 cache
+/0/f                                memory         2MiB L2 cache
+/0/10                               memory         4MiB L3 cache
+/0/11                               processor      AMD Ryzen 3 5300U with Radeon Graphics
+/0/100                              bridge         Renoir/Cezanne Root Complex
+/0/100/0.2                          generic        Renoir/Cezanne IOMMU
+/0/100/2.2                          bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.2/0        wlo1            network        RTL8822CE 802.11ac PCIe Wireless Network Adapter
+/0/100/2.4                          bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.4/0        /dev/nvme0      storage        SK hynix BC711 HFM512GD3JX013N
+/0/100/2.4/0/0      hwmon3          disk           NVMe disk
+/0/100/2.4/0/2      /dev/ng0n1      disk           NVMe disk
+/0/100/2.4/0/1      /dev/nvme0n1    disk           512GB NVMe disk
+/0/100/2.4/0/1/1    /dev/nvme0n1p1  volume         259MiB Windows FAT volume
+/0/100/2.4/0/1/2    /dev/nvme0n1p2  volume         15MiB reserved partition
+/0/100/2.4/0/1/3    /dev/nvme0n1p3  volume         368GiB Windows NTFS volume
+/0/100/2.4/0/1/4    /dev/nvme0n1p4  volume         6134MiB Windows NTFS volume
+/0/100/2.4/0/1/5    /dev/nvme0n1p5  volume         599MiB Windows NTFS volume
+/0/100/2.4/0/1/6    /dev/nvme0n1p6  volume         100GiB EXT4 volume
+/0/100/8.1          input6          bridge         Video Bus
+/0/100/8.1/0        /dev/fb0        display        Lucienne
+/0/100/8.1/0.1      card0           multimedia     Renoir/Cezanne HDMI/DP Audio Controller
+/0/100/8.1/0.1/0    input12         input          HD-Audio Generic HDMI/DP,pcm=3
+/0/100/8.1/0.2                      generic        Raven/Raven2/FireFlight/Renoir/Cezanne Platform Security Processor
+/0/100/8.1/0.3                      bus            Renoir/Cezanne USB 3.1
+/0/100/8.1/0.3/0    usb1            bus            xHCI Host Controller
+/0/100/8.1/0.3/0/3                  multimedia     HP TrueVision HD Camera
+/0/100/8.1/0.3/0/4                  communication  Bluetooth Radio
+/0/100/8.1/0.3/1    usb2            bus            xHCI Host Controller
+/0/100/8.1/0.4                      bus            Renoir/Cezanne USB 3.1
+/0/100/8.1/0.4/0    usb3            bus            xHCI Host Controller
+/0/100/8.1/0.4/0/2  input23         input          Dell Dell Universal Receiver System Control
+/0/100/8.1/0.4/1    usb4            bus            xHCI Host Controller
+/0/100/8.1/0.5      card2           multimedia     Audio Coprocessor
+/0/100/8.1/0.6      card1           multimedia     Ryzen HD Audio Controller
+/0/100/8.1/0.6/0    input13         input          HD-Audio Generic Mic
+/0/100/8.1/0.6/1    input14         input          HD-Audio Generic Headphone
+/0/100/14                           bus            FCH SMBus Controller
+/0/100/14.3                         bridge         FCH LPC Bridge
+/0/100/14.3/0                       system         PnP device PNP0b00
+/0/100/14.3/1                       generic        PnP device HPQ8001
+/0/101                              bridge         Renoir PCIe Dummy Host Bridge
+/0/102                              bridge         Renoir PCIe Dummy Host Bridge
+/0/103                              bridge         Renoir PCIe Dummy Host Bridge
+/0/104                              bridge         Renoir Device 24: Function 0
+/0/105                              bridge         Renoir Device 24: Function 1
+/0/106                              bridge         Renoir Device 24: Function 2
+/0/107                              bridge         Renoir Device 24: Function 3
+/0/108                              bridge         Renoir Device 24: Function 4
+/0/109                              bridge         Renoir Device 24: Function 5
+/0/10a                              bridge         Renoir Device 24: Function 6
+/0/10b                              bridge         Renoir Device 24: Function 7
+/1                                  power          HW03041XL
+/2                  input0          input          Power Button
+/3                  input1          input          Lid Switch
+/4                  input10         input          Wireless hotkeys
+/5                  input11         input          HP WMI hotkeys
+/6                  input2          input          AT Translated Set 2 keyboard
+/7                  input7          input          ELAN071A:00 04F3:30FD Mouse
+/8                  input9          input          ELAN071A:00 04F3:30FD Touchpad
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$  [Kls -l /sbin/init
+[?2004l]133;C\]666;vte.shell.preexec!\lrwxrwxrwx 1 root root 22 Jul 28 02:14 [0m[01;36m/sbin/init[0m -> [01;32m../lib/systemd/systemd[0m
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ runlevel
+[?2004l]133;C\]666;vte.shell.preexec!\runlevel: command not found
+]666;vte.shell.postexec=127\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ runlevels
+[?2004l]133;C\]666;vte.shell.preexec!\runlevels: command not found
+]666;vte.shell.postexec=127\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ runlevelwh[K[K[K[K[K[K[K[K[K[Kwhich runlevel
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ sudo apt update
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: **********          
+[33m0% [Working][0m            Hit:1 https://packages.microsoft.com/repos/code stable InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:2 http://in.archive.ubuntu.com/ubuntu resolute InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:3 http://security.ubuntu.com/ubuntu resolute-security InRelease
+[33m                                              0% [Waiting for headers][0m                        Hit:4 http://in.archive.ubuntu.com/ubuntu resolute-updates InRelease
+[33m                        0% [Working][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Hit:5 http://in.archive.ubuntu.com/ubuntu resolute-backports InRelease
+[33m                        0% [Working][0m[33m20% [Working][0m             Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 32%Reading package lists... 47%Reading package lists... 47%Reading package lists... 66%Reading package lists... 66%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 84%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 88%Reading package lists... 88%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m217 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0m]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ sudo apt install sysvinit-utils
+[?2004l]133;C\]666;vte.shell.preexec!\Reading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                sysvinit-utils is already the newest version (3.15-5ubuntu1).
+sysvinit-utils set to manually installed.
+Solving dependencies... 0%Solving dependencies... 10%                            Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 217
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ runlevel
+[?2004l]133;C\]666;vte.shell.preexec!\runlevel: command not found
+]666;vte.shell.postexec=127\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ dpkg -L st[Kysvinit-utils }[K| gt[Krep ''/'r'u'n'l'e'v'e'l'$'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [7mdpkg -L sysvinit-utils | grep '/runlevel$'[27mdpkg -L sysvinit-utils | grep '/runlevel$'
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [7mecho "$PATH"[27mecho "$PATH"
+[?2004l]133;C\]666;vte.shell.preexec!\/home/yash/.local/bin:/home/yash/.local/bin:/home/yash/.local/share/pnpm/bin:/home/yash/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [7mls -l /usr/sbin/runlevel[27mls -l /usr/sbin/runlevel
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access '/usr/sbin/runlevel': No such file or directory
+]666;vte.shell.postexec=2\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ systemctl  [Kget-default
+[?2004l]133;C\]666;vte.shell.preexec!\graphical.target
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ who -r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [7msystemctl list-units --type=target --state=active[27msystemctl list-units --type=target --state=active
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[4m [0m[4m [0m[4mUNIT                   [0m[4m [0m[4mLOAD  [0m[4m [0m[4mACTIVE[0m[4m [0m[4mSUB   [0m[4m [0m[4mDESCRIPTION                       [0m[m
+  basic.target            loaded active active Basic System[m
+  bluetooth.target        loaded active active Bluetooth Support[m
+  boot-complete.target    loaded active active Boot Completion Check[m
+  cryptsetup.target       loaded active active Local Encrypted Volumes[m
+  getty-pre.target        loaded active active Preparation for Logins[m
+  getty.target            loaded active active Login Prompts[m
+  graphical.target        loaded active active Graphical Interface[m
+  imports.target          loaded active active Image Downloads[m
+  integritysetup.target   loaded active active Local Integrity Protected Volumes[m
+  local-fs-pre.target     loaded active active Preparation for Local File Systems[m
+  local-fs.target         loaded active active Local File Systems[m
+  multi-user.target       loaded active active Multi-User System[m
+  network-online.target   loaded active active Network is Online[m
+  network-pre.target      loaded active active Preparation for Network[m
+  network.target          loaded active active Network[m
+  nss-lookup.target       loaded active active Host and Network Name Lookups[m
+  nss-user-lookup.target  loaded active active User and Group Name Lookups[m
+  paths.target            loaded active active Path Units[m
+  remote-fs.target        loaded active active Remote File Systems[m
+  slices.target           loaded active active Slice Units[m
+  snapd.mounts-pre.target loaded active active Mounting snaps[m
+  snapd.mounts.target     loaded active active Mounted snaps[m
+  sockets.target          loaded active active Socket Units[m
+  sound.target            loaded active active Sound Card[m
+  swap.target             loaded active active Swaps[m
+  sysinit.target          loaded active active System Initialization[m
+  time-set.target         loaded active active System Time Set[m
+  timers.target           loaded active active Timer Units[m
+  tpm2.target             loaded active active Trusted Platform Module[m
+  veritysetup.target      loaded active active Local Verity Protected Volumes[m
+[m
+[0;38:5:245mLegend: LOAD   → Reflects whether the unit definition was properly loaded.[0m[m
+[0;38:5:245m        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.[0m[m
+[0;38:5:245m        SUB    → The low-level unit activation state, values depend on unit type.[0m[m
+[m
+30 loaded units listed.[m
+[K[?1l>]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ ls -ltr /etc/systemd/system/default.target
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access '/etc/systemd/system/default.target': No such file or directory
+]666;vte.shell.postexec=2\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [7mls -l /etc/systemd/system/default.target[27mls -l /etc/systemd/system/default.target
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access '/etc/systemd/system/default.target': No such file or directory
+]666;vte.shell.postexec=2\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ [7mls -l /usr/lib/systemd/system/default.target[27mls -l /usr/lib/systemd/system/default.target
+[?2004l]133;C\]666;vte.shell.preexec!\lrwxrwxrwx 1 root root 16 Jul 28 02:14 [0m[01;36m/usr/lib/systemd/system/default.target[0m -> graphical.target
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ systemctl set-default ul[K[Kmulti [K-user.target^C[?2004l[?2004h[?2004l
+]666;vte.shell.postexec=130\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ ls -l /usr/lib/systemd/system/default.target[Kls -l /usr/lib/systemd/system/default.target[Ksystemctl set-default multi-user.target
+[?2004l]133;C\]666;vte.shell.preexec!\Created symlink '/etc/systemd/system/default.target' → '/usr/lib/systemd/system/multi-user.target'.
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ fil [Ke home/yash
+[?2004l]133;C\]666;vte.shell.preexec!\home/yash: cannot open `home/yash' (No such file or directory)
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mrecordings[0m
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ file recordings
+[?2004l]133;C\]666;vte.shell.preexec!\recordings: directory
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ file bash-sci[Kript.sh
+[?2004l]133;C\]666;vte.shell.preexec!\bash-script.sh: cannot open `bash-script.sh' (No such file or directory)
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ df -hP
+[?2004l]133;C\]666;vte.shell.preexec!\Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.4G  2.9M  1.4G   1% /run
+/dev/nvme0n1p6   99G   16G   79G  17% /
+tmpfs           3.3G   12K  3.3G   1% /dev/shm
+efivarfs        128K   52K   72K  42% /sys/firmware/efi/efivars
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           3.3G   24K  3.3G   1% /tmp
+/dev/nvme0n1p1  256M   96M  161M  38% /boot/efi
+tmpfs           675M  4.1M  671M   1% /run/user/1000
+]666;vte.shell.postexec=0\]7;file://yash-HP-Laptop-15s-eq2xxx/home/yash/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]0;yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts\]666;vte.shell.precmd!\[?2004h]0;yash@yash-HP-Laptop-15s-eq2xxx: ~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[01;32myash@yash-HP-Laptop-15s-eq2xxx[00m:[01;34m~/projects/cloud-engineering-journey/linux/day-02_linux-core-concepts[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-10-18 04:33:17+05:30 [COMMAND_EXIT_CODE="0"]
