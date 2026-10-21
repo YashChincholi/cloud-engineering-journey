@@ -1,0 +1,2 @@
+# Keep downloaded package archives local; document the commands, not the binaries.
+/package-lab/*.deb

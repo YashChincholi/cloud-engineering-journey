@@ -1,0 +1,213 @@
+TREE(1)                                                                                                General Commands Manual                                                                                                TREE(1)
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ apt --version
+apt 3.2.0 (amd64)
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ dpkg --version
+Debian 'dpkg' package management program version 1.23.7 (amd64).
+This is free software; see the GNU General Public License version 2 or
+later for copying conditions. There is NO warranty.
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ cat /etc/apt/sources.list.d/ubuntu.sources
+Types: deb
+URIs: http://in.archive.ubuntu.com/ubuntu/
+Suites: resolute resolute-updates resolute-backports
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+Types: deb
+URIs: http://security.ubuntu.com/ubuntu/
+Suites: resolute-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ sudo apt update
+[sudo: authenticate] Password:
+Hit:1 http://in.archive.ubuntu.com/ubuntu resolute InRelease
+Get:2 https://packages.microsoft.com/repos/code stable InRelease [3,590 B]
+Get:3 http://in.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+Get:4 https://packages.microsoft.com/repos/code stable/main amd64 Packages [30.6 kB]
+Get:5 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+Get:6 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages [606 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu resolute-updates/main i386 Packages [331 kB]
+Get:9 http://security.ubuntu.com/ubuntu resolute-security/main i386 Packages [237 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages [738 kB]
+Get:11 http://security.ubuntu.com/ubuntu resolute-security/main Translation-en [141 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu resolute-updates/main amd64 Components [110 kB]
+Get:13 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Packages [329 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe i386 Packages [172 kB]
+Get:15 http://in.archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Components [201 kB]
+Get:16 http://in.archive.ubuntu.com/ubuntu resolute-backports/universe amd64 Components [1,060 B]
+Get:17 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Components [46.8 kB]
+Get:18 http://security.ubuntu.com/ubuntu resolute-security/universe i386 Packages [118 kB]
+Get:19 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Packages [205 kB]
+Get:20 http://security.ubuntu.com/ubuntu resolute-security/universe Translation-en [67.7 kB]
+Progress: [ 67%] [██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                     ]
+REMOVING:                       )
+  treekages can be upgraded. Run 'apt list --upgradable' to see them.
+       tree - list contents of directories in a tree-like format.ey/linux/day-03_package_management$ dpkg -s tree
+Summary:ry: package 'tree' is not installed and no information is available
+  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 28
+  Freed space: 125 kBilnpqrstuvxACDFJQNSUX]  [-L  level  [-R]]  [-H  [-]baseHREF] [-T title] [-o filename] [-P pattern] [-I pattern] [--gitignore] [--gitfile[=]file] [--matchdirs] [--metafirst] [--ignore-case] [--nolinks] [--hin‐
+       tro[=]file] [--houtro[=]file] [--inodes] [--device] [--sort[=]name] [--dirsfirst] [--filesfirst] [--filelimit[=]#] [--si] [--du]  [--prune]  [--charset[=]X]  [--timefmt[=]format]  [--fromfile]  [--fromtabfile]  [--fflinks]
+Continue? [Y/n] y--infofile[=]file] [--noreport] [--hyperlink] [--scheme[=]schema] [--authority[=]hostname] [--opt-toggle] [--acl] [--selinux] [--condense] [--compress[=]#] [--version] [--help] [--] [directory ...]
+(Reading database… 220618 files and directories currently installed.)
+Removing tree (2.3.1-1)…eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ sudo apt install tree
+Processing triggers for man-db (2.13.1-1build1)…program that produces a depth indented listing of files, which is colorized ala dircolors if the LS_COLORS environment variable is set and output is to tty.  With no arguments, tree
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ dpkg -s tree
+dpkg-query: package 'tree' is not installed and no information is available
+Use dpkg --info (= dpkg-deb --info) to examine archive files.
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ mkdir -p /package-lab
+mkdir: Permission denied
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ ls
+recordings
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ ls -lh
+total 4.0K
+drwx------ 2 yash yash 4.0K Oct 21 06:34 recordings
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ mkdir -p package-lab
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ ls
+package-lab  recordings
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management$ cd package-lab/
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ apt download tree
+Get:1 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 tree amd64 2.3.1-1 [53.5 kB]
+Fetched 53.5 kB in 1s (73.2 kB/s)
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ ls
+tree_2.3.1-1_amd64.deb
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ ls -lh
+total 56K
+-rw-r--r-- 1 yash yash 53K Feb  4  2026 tree_2.3.1-1_amd64.deb
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg-deb -I tree_*.deb
+ new Debian package, version 2.0.
+ size 53550 bytes: control archive=737 bytes.
+     580 bytes,    14 lines      control
+     367 bytes,     6 lines      md5sums
+ Package: tree
+ Version: 2.3.1-1
+ Architecture: amd64
+ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+ Original-Maintainer: Florian Ernst <florian@debian.org>
+ Installed-Size: 122
+ Depends: libc6 (>= 2.38)
+ Section: utils
+ Priority: optional
+ Homepage: http://oldmanprogrammer.net/source.php?dir=projects/tree
+ Description: displays an indented directory tree, in color
+  Tree is a recursive directory listing command that produces a depth indented
+  listing of files, which is colorized ala dircolors if the LS_COLORS environment
+  variable is set and output is to tty.
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg-deb -c tree_*.deb
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./usr/
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./usr/bin/
+-rwxr-xr-x root/root     97792 2026-02-03 23:29 ./usr/bin/tree
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./usr/share/
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./usr/share/doc/
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./usr/share/doc/tree/
+-rw-r--r-- root/root      5058 2026-01-31 05:44 ./usr/share/doc/tree/README.gz
+-rw-r--r-- root/root      1020 2025-12-29 01:06 ./usr/share/doc/tree/TODO
+-rw-r--r-- root/root      2282 2026-02-03 23:29 ./usr/share/doc/tree/changelog.Debian.gz
+-rw-r--r-- root/root       916 2026-02-03 23:21 ./usr/share/doc/tree/copyright
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./usr/share/man/
+drwxr-xr-x root/root         0 2026-02-03 23:29 ./usr/share/man/man1/
+-rw-r--r-- root/root      6866 2026-02-03 23:29 ./usr/share/man/man1/tree.1.gz
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ sudo apt install ./tree_*.deb
+Note, selecting 'tree' instead of './tree_2.3.1-1_amd64.deb'
+Installing:
+  tree
+
+Summary:
+  Upgrading: 0, Installing: 1, Removing: 0, Not Upgrading: 28
+  Download size: 53.5 kB
+  Space needed: 125 kB / 81.3 GB available
+
+Get:1 http://in.archive.ubuntu.com/ubuntu resolute/universe amd64 tree amd64 2.3.1-1 [53.5 kB]
+Fetched 53.5 kB in 1s (44.0 kB/s)
+Selecting previously unselected package tree.
+(Reading database… 220613 files and directories currently installed.)
+Preparing to unpack …/tree_2.3.1-1_amd64.deb…
+Unpacking tree (2.3.1-1)…
+Setting up tree (2.3.1-1)…
+Processing triggers for man-db (2.13.1-1build1)…
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg -s tree
+Package: tree
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 122
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.3.1-1
+Depends: libc6 (>= 2.38)
+Description: displays an indented directory tree, in color
+ Tree is a recursive directory listing command that produces a depth indented
+ listing of files, which is colorized ala dircolors if the LS_COLORS environment
+ variable is set and output is to tty.
+Original-Maintainer: Florian Ernst <florian@debian.org>
+Homepage: http://oldmanprogrammer.net/source.php?dir=projects/tree
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ which tree
+/usr/bin/tree
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg -s /usr/bin/tree
+dpkg-query: error: --status needs a valid package name but '/usr/bin/tree' is not: invalid package name in specifier '/usr/bin/tree': must start with an alphanumeric character
+
+Use --help for help about querying packages.
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg -S /usr/bin/tree
+tree: /usr/bin/tree
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg -s tree
+Package: tree
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 122
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 2.3.1-1
+Depends: libc6 (>= 2.38)
+Description: displays an indented directory tree, in color
+ Tree is a recursive directory listing command that produces a depth indented
+ listing of files, which is colorized ala dircolors if the LS_COLORS environment
+ variable is set and output is to tty.
+Original-Maintainer: Florian Ernst <florian@debian.org>
+Homepage: http://oldmanprogrammer.net/source.php?dir=projects/tree
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg -L tree
+/.
+/usr
+/usr/bin
+/usr/bin/tree
+/usr/share
+/usr/share/doc
+/usr/share/doc/tree
+/usr/share/doc/tree/README.gz
+/usr/share/doc/tree/TODO
+/usr/share/doc/tree/changelog.Debian.gz
+/usr/share/doc/tree/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/tree.1.gz
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ sudo apt remove tree
+REMOVING:
+  tree
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 28
+  Freed space: 125 kB
+
+Continue? [Y/n] Y
+(Reading database… 220618 files and directories currently installed.)
+Removing tree (2.3.1-1)…
+Processing triggers for man-db (2.13.1-1build1)…
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ dpkg -s tree
+dpkg-query: package 'tree' is not installed and no information is available
+Use dpkg --info (= dpkg-deb --info) to examine archive files.
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ which tree
+yash@yash-HP-Laptop-15s-eq2xxx:~/projects/cloud-engineering-journey/linux/day-03_package_management/package-lab$ exit
+exit
