@@ -1,2 +1,46 @@
-# Keep downloaded package archives local; document the commands, not the binaries.
-/package-lab/*.deb
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Downloaded packages
+*.deb
+*.rpm
+
+# Compressed archives
+*.tar
+*.tar.gz
+*.tgz
+*.tar.xz
+*.tar.bz2
